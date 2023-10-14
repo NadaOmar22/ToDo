@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Your ToDo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/todo_style.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>Your Todo</h1>
+      <p>
+        Unleash your productivity and achieve your goals effortlessly by
+        efficiently managing your tasks
+      </p>
+    </div>
+
+    <div class="todo-count">
+      <p>Total Number of Tasks: <span></span></p>
+    </div>
+
+    <div class="card-container"></div>
+
+    <div id="editDialog" class="dialog">
+      <div class="dialog-content">
+        <h2>Edit Task</h2>
+        <label for="editTitle">Title:</label>
+        <input id="editTitle" type="text" />
+        <label for="editDescription">Description:</label>
+        <textarea id="editDescription"></textarea>
+        <button id="saveChangesButton">Save Changes</button>
+        <button id="cancelButton">Cancel</button>
+      </div>
+    </div>
+
+    <div id="addDialog" class="dialog">
+      <div class="dialog-content">
+        <h2>Add Task</h2>
+        <label for="title">Title:</label>
+        <input id="title" type="text" />
+        <label for="description">Description:</label>
+        <textarea id="description"></textarea>
+        <button id="saveNewTask">Save Changes</button>
+        <button id="cancelAddButton">Cancel</button>
+      </div>
+    </div>
+
+    <br/><br/> <br/>
+
+    <button class="btn add-button"><i class="fas fa-plus"></i> Add Item</button>
+
+    <button class="btn logout-button">
+      <i class="fas fa-sign-out-alt"></i> <a href="index.html">Logout</a>
+    </button>
+
+    <script type="module" src="js/task/all_tasks.js"></script>
+  </body>
+</html>
