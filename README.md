@@ -4,7 +4,7 @@
 this part is implemented using python, django and provides some APIs:
 
   1: login
-  2: register new account
+  2: create new account
   3: logout
   4: add new task
   5: edit specific task
