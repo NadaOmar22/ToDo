@@ -26,7 +26,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
         title: const Text('Sign Up'),
         backgroundColor: const Color(0xFF457CE0),
       ),
-      body: Padding(
+      body: SingleChildScrollView(
+          child: Padding(
         padding: const EdgeInsets.all(20.0),
         child: Form(
           key: _formKey,
@@ -143,7 +144,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
             ],
           ),
         ),
-      ),
+      )),
     );
   }
 }
