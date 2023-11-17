@@ -20,30 +20,16 @@ this part is implemented using dart and Flutter
 
 
 
-# some screenshots:
-
-
+# Some Screenshots:
+<br />
 ![register](https://github.com/NadaOmar22/ToDo/assets/75037231/6139cec3-7bbe-44db-bbc3-cdd9b3cc8d57)
-
-
-
-
-
+<br /> <br /> <br /> <br /> <br />
 
 ![login](https://github.com/NadaOmar22/ToDo/assets/75037231/51448393-cff9-46c6-a5e1-f3adc0935d80)
-
-
-
-
+<br /> <br /> <br /> <br /> <br />
 
 ![userTasks](https://github.com/NadaOmar22/ToDo/assets/75037231/fcd50261-40e6-4a66-8189-3c41746c7346)
-
-
-
-
+<br /> <br /> <br /> <br /> <br />
 
 ![addNewTask](https://github.com/NadaOmar22/ToDo/assets/75037231/796af0dc-8d88-40d5-b040-5f0c62e09c2c)
-
-
-
-
+<br /> <br /> <br /> <br /> <br />
